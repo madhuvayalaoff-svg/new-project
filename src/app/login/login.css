@@ -1,0 +1,460 @@
+/* =====================================
+   PAGE
+===================================== */
+
+ion-content {
+  --background: #080808;
+}
+
+.login-page {
+  min-height: 100%;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px 15px 20px;
+
+  background:
+    radial-gradient(
+      circle at top center,
+      rgba(255, 80, 0, 0.12),
+      transparent 35%
+    ),
+    #080808;
+}
+
+
+/* =====================================
+   LOGIN CARD
+===================================== */
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+
+  background: #c0d8d7;
+
+  border-radius: 22px;
+
+  padding: 22px 18px 25px;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+
+/* =====================================
+   HEADER
+===================================== */
+
+.login-header {
+  text-align: center;
+
+  margin-bottom: 5px;
+}
+
+.login-header h1 {
+  margin: 0;
+
+  color: #111111;
+
+  font-size: 27px;
+
+  font-weight: 800;
+
+  letter-spacing: -0.5px;
+}
+
+.login-header p {
+  margin: 6px 0 0;
+
+  color: #777777;
+
+  font-size: 13px;
+}
+
+
+/* =====================================
+   FITNESS IMAGE
+===================================== */
+
+.fitness-image {
+  width: 180px;
+  height: 180px;
+
+  margin: 15px auto;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  border: 5px solid #877a73;
+
+  box-shadow: 0 8px 25px rgba(255, 90, 0, 0.25);
+}
+
+.fitness-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.fitness-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.fitness-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+
+/* =====================================
+   INPUT GROUP
+===================================== */
+
+.input-group {
+  margin-top: 16px;
+}
+
+.input-group label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #222222;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+
+/* =====================================
+   PASSWORD HEADER
+===================================== */
+
+.password-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 7px;
+}
+
+.password-header label {
+  margin: 0;
+}
+
+.password-header button {
+  border: none;
+
+  background: transparent;
+
+  padding: 0;
+
+  color: #ff5100;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+/* =====================================
+   INPUT
+===================================== */
+
+.input-box {
+  width: 100%;
+
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 0 13px;
+
+  background: #eef4ff;
+
+  border: 1px solid #e0e7f2;
+
+  border-radius: 10px;
+
+  transition: 0.2s ease;
+}
+
+.input-box:focus-within {
+  border-color: #877a73;
+
+  background: #f5f8ff;
+
+  box-shadow:
+    0 0 0 3px rgba(255, 90, 0, 0.08);
+}
+
+.input-box > ion-icon {
+  flex-shrink: 0;
+
+  color: #8a8a8a;
+
+  font-size: 19px;
+}
+
+.input-box ion-input {
+  width: 100%;
+
+  --color: #222222;
+
+  --placeholder-color: #999999;
+
+  font-size: 14px;
+}
+
+.eye-icon {
+  cursor: pointer;
+
+  font-size: 19px !important;
+}
+
+
+/* =====================================
+   LOGIN BUTTON
+===================================== */
+
+.login-button {
+  width: 100%;
+
+  height: 52px;
+
+  margin: 25px 0 0;
+
+  --background: #ff5700;
+
+  --background-hover: #e94d00;
+
+  --color: #ffffff;
+
+  --border-radius: 11px;
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+  text-transform: none;
+
+  box-shadow:
+    0 8px 20px rgba(255, 87, 0, 0.22);
+}
+
+.login-button ion-icon {
+  font-size: 19px;
+}
+
+
+/* =====================================
+   DIVIDER
+===================================== */
+
+.divider {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin: 20px 0;
+}
+
+.divider span {
+  flex: 1;
+
+  height: 1px;
+
+  background: #eeeeee;
+}
+
+.divider p {
+  margin: 0;
+
+  color: #999999;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+
+/* =====================================
+   GOOGLE BUTTON
+===================================== */
+
+.google-button {
+  width: 100%;
+
+  height: 50px;
+
+  margin: 0;
+
+  --background: #ffffff;
+
+  --color: #222222;
+
+  --border-color: #dddddd;
+
+  --border-radius: 10px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  text-transform: none;
+}
+
+.google-button ion-icon {
+  font-size: 19px;
+}
+
+
+/* =====================================
+   SIGN UP
+===================================== */
+
+.signup {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  margin-top: 20px;
+
+  color: #888888;
+
+  font-size: 12px;
+}
+
+.signup button {
+  border: none;
+
+  background: transparent;
+
+  padding: 0;
+
+  color: #ff5700;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* =====================================
+   FOOTER
+===================================== */
+
+.footer {
+  margin-top: 18px;
+
+  color: #555555;
+
+  font-size: 9px;
+
+  text-align: center;
+}
+
+
+/* =====================================
+   SMALL PHONES
+===================================== */
+
+@media (max-height: 700px) {
+
+  .login-page {
+    padding-top: 12px;
+  }
+
+  .login-card {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .login-header h1 {
+    font-size: 24px;
+  }
+
+  .fitness-image {
+    height: 140px;
+  }
+
+  .input-group {
+    margin-top: 12px;
+  }
+
+  .input-box {
+    height: 46px;
+  }
+
+  .login-button {
+    height: 47px;
+
+    margin-top: 18px;
+  }
+
+  .google-button {
+    height: 45px;
+  }
+
+  .divider {
+    margin: 15px 0;
+  }
+
+  .signup {
+    margin-top: 15px;
+  }
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (min-width: 600px) {
+
+  .login-page {
+    padding: 40px 20px;
+  }
+
+  .login-card {
+    max-width: 450px;
+
+    padding: 30px;
+  }
+
+  .fitness-image {
+    height: 220px;
+  }
+}

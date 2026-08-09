@@ -9,9 +9,14 @@ export const routes: Routes = [
         component: Login
     },
     {
+        path:'signals',
+        loadComponent: () => import('./signals/signals').then(m => m.Signals)
+    },
+    {
         path: '**',
         component: PageNotFound
     },
+    
     // {
     //     path: 'home',
     //     loadChildren: () => import('./home/home').then(m => m.Home)
